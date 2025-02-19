@@ -4,12 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 html {
     width: 100%;
     height: 100%;
+    font-size: calc(1vh + 1vw);
 }
 
 body {
@@ -17,4 +18,61 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #FFF;
+    color: #000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #F7F8F7;
+  font-size: calc(1.5vh + 1.5vw);
+}
+
+.fa-terminal,
+.fa-ellipsis-vertical,
+.header .button
+/* .nav-bar *           for removing the navigation bar in mobile devices and including a interactive symbol*/{
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.offer-container {
+  height: 90vh;
+  padding: 5em;
+  background-color: #F7F8F7;
+  font-size: calc(2vh + 2vw);
+  text-align: center;
+}
+
+.offer-container h2 {
+  margin-bottom: 3rem;
+}
+
+.offer-container p {
+  font-size: calc(1.5vh + 1.5vw);
+} 
+
+.offer {
+  border: 0.5px solid black;
+  padding: 0.3em;
+  margin-top: 1rem;
+}
+
+.buy-get {
+  color: #AD3745;
+
 }
