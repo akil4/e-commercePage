@@ -134,3 +134,27 @@ footer {
       display: flex;
   }
 }
+
+.ratings {
+  padding: 1rem;
+  background-color: #FFF3CD;
+  border-radius: 5px;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.ratings p {
+  margin-top: 1rem;
+}
+
+.related-products {
+  padding: 1rem;
+  background-color: #E9ECEF;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.related-products img {
+  width: 20%;
+  border-radius: 5px;
+}
